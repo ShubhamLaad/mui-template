@@ -1,0 +1,22 @@
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { preLoginURL } from '../../constants/API';
+
+export const forgotPassSliceAPI = createApi({
+  reducerPath: 'forgotPassSliceAPI',
+  baseQuery: fetchBaseQuery({
+    baseUrl: `${preLoginURL}/Account`,
+  }),
+  endpoints: (builder) => ({
+    postAPI: builder.mutation({
+      query(reqObj) {
+        return {
+          url: `forgot-password`,
+          method: 'POST',
+          body: reqObj,
+        };
+      },
+    }),
+  }),
+});
+
+export const { usePostAPIMutation } = forgotPassSliceAPI;

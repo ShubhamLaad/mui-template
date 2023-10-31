@@ -1,0 +1,15 @@
+{
+    "succeeded": true,
+    "message": "Authenticated johan.ferguson",
+    "errors": null,
+    "data": {
+        "id": "c98e315e-5320-4130-9640-2be17fdb1a82",
+        "userName": "johan.ferguson",
+        "email": "johan.ferguson@gmail.com",
+        "roles": [
+            "SuperAdmin"
+        ],
+        "isVerified": true,
+        "jwToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2hhbi5mZXJndXNvbiIsImp0aSI6IjJjZWQ5OTc1LWQ0MWUtNGFkYy04YThkLWZmOGFlNWRiYzBiZSIsImVtYWlsIjoiam9oYW4uZmVyZ3Vzb25AZ21haWwuY29tIiwidWlkIjoiYzk4ZTMxNWUtNTMyMC00MTMwLTk2NDAtMmJlMTdmZGIxYTgyIiwiaXAiOiIxMC4wLjAuNiIsInJvbGVzIjoiU3VwZXJBZG1pbiIsImV4cCI6MTY2MTA3NDAxOSwiaXNzIjoiQ29yZUlkZW50aXR5IiwiYXVkIjoiQ29yZUlkZW50aXR5VXNlciJ9.vC3b1nhekzGIjHBVVaWOH6uSTS28-sh6Rs6uOSuaF2w"
+    }
+}
